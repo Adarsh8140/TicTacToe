@@ -2,7 +2,7 @@
 
 A responsive and interactive 2-player Tic Tac Toe game with multiple rounds, player scoring, and celebratory effects.
 
-![Tic Tac Toe Game]! E:\NetifyProject\tic-tac\image.png
+![Game Screenshot](./image.png)
 
 ## Features
 
