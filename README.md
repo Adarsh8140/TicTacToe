@@ -2,7 +2,7 @@
 
 A responsive and interactive 2-player Tic Tac Toe game with multiple rounds, player scoring, and celebratory effects.
 
-![Game Screenshot](./image.png)
+![Game Screenshot](./assets/image.png)
 
 ## Features
 
