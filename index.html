@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Interactive Background -->
+    <div class="bg-bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+    
+    <!-- Confetti Container -->
+    <div class="confetti-container" id="confetti-container"></div>
+    
+    <!-- Celebration Text -->
+    <div class="celebration-text" id="celebration-text"></div>
+    
+    <!-- Play Again Button (Above Container) -->
+    <button id="play-again-top">Play Again</button>
+    
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        
+        <!-- Player Registration Form -->
+        <div id="player-form" class="active">
+            <h2>Enter Player Names</h2>
+            <div class="form-group">
+                <label for="player1">Player 1 (X):</label>
+                <input type="text" id="player1" placeholder="Enter name" required>
+            </div>
+            <div class="form-group">
+                <label for="player2">Player 2 (O):</label>
+                <input type="text" id="player2" placeholder="Enter name" required>
+            </div>
+            <button id="start-game">Start Game</button>
+        </div>
+
+        <!-- Game Board -->
+        <div id="game-container" class="hidden">
+            <div class="game-info">
+                <div class="round-info">Round: <span id="current-round">1</span>/3</div>
+                <div class="score-board">
+                    <div id="player1-score">
+                        <span id="player1-name">Player 1</span>: <span id="score1">0</span>
+                    </div>
+                    <div id="player2-score">
+                        <span id="player2-name">Player 2</span>: <span id="score2">0</span>
+                    </div>
+                </div>
+                <div id="turn-indicator">
+                    <span id="current-player">Player 1</span>'s turn
+                </div>
+            </div>
+
+            <div class="board" id="board">
+                <div class="cell" data-index="0"></div>
+                <div class="cell" data-index="1"></div>
+                <div class="cell" data-index="2"></div>
+                <div class="cell" data-index="3"></div>
+                <div class="cell" data-index="4"></div>
+                <div class="cell" data-index="5"></div>
+                <div class="cell" data-index="6"></div>
+                <div class="cell" data-index="7"></div>
+                <div class="cell" data-index="8"></div>
+            </div>
+
+            <div id="round-result" class="hidden">
+                <h2 id="round-winner-text">Player wins this round!</h2>
+                <button id="next-round">Next Round</button>
+            </div>
+
+            <div id="game-result" class="hidden">
+                <h2 id="game-winner-text">Player wins the game!</h2>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
