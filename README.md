@@ -2,7 +2,7 @@
 
 A responsive and interactive 2-player Tic Tac Toe game with multiple rounds, player scoring, and celebratory effects.
 
-![Tic Tac Toe Game]![alt text](image.png)
+![Tic Tac Toe Game]! E:\NetifyProject\tic-tac\image.png
 
 ## Features
 
@@ -104,4 +104,4 @@ You can easily customize the game by modifying:
 
 ## Credits
 
-- Developed by [Adarsh Pandey]
+- Developed by Adarsh Pandey
