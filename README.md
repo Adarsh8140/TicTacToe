@@ -2,7 +2,7 @@
 
 A responsive and interactive 2-player Tic Tac Toe game with multiple rounds, player scoring, and celebratory effects.
 
-![Tic Tac Toe Game](https://example.com/tic-tac-toe-preview.png)
+![Tic Tac Toe Game]![alt text](image.png)
 
 ## Features
 
@@ -84,7 +84,7 @@ A responsive and interactive 2-player Tic Tac Toe game with multiple rounds, pla
 1. **Clone or download the repository**:
 
    ```
-   git clone https://github.com/yourusername/tic-tac-toe.git
+   git clone https://github.com/Adarsh8140/TicTacToe
    ```
 
 2. **Open the game**:
